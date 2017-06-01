@@ -2,7 +2,7 @@
 @function iromi-type($background, $prominence: 'default') {
 
   // Darken
-  @if luminance($background) >= 0.25 {
+  @if luminance($background) >= 0.295 {
     $adjusted_lightness: '';
 
     @if $prominence == 'less' {
